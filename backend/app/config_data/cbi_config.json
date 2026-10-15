@@ -1,0 +1,104 @@
+{
+  "source": "Copenhagen Burnout Inventory (CBI), first edition, February 2004, Borritz & Kristensen, National Research Centre for the Working Environment (NFA), Denmark.",
+  "assessment_cadence_days": 14,
+  "scales": {
+    "FREQ": {
+      "Always": 100,
+      "Often": 75,
+      "Sometimes": 50,
+      "Seldom": 25,
+      "Never/almost never": 0
+    },
+    "INTENSITY": {
+      "To a very high degree": 100,
+      "To a high degree": 75,
+      "Somewhat": 50,
+      "To a low degree": 25,
+      "To a very low degree": 0
+    }
+  },
+  "cutoffs": {
+    "low_moderate_boundary": 35.0,
+    "high_boundary": 50.0
+  },
+  "subscales": {
+    "personal": {
+      "name": "Personal Burnout",
+      "definition": "A state of prolonged physical and psychological exhaustion.",
+      "min_responses_required": 3,
+      "items": [
+        {"id": "P1", "text": "How often do you feel tired?", "scale": "FREQ", "reverse": false},
+        {"id": "P2", "text": "How often are you physically exhausted?", "scale": "FREQ", "reverse": false},
+        {"id": "P3", "text": "How often are you emotionally exhausted?", "scale": "FREQ", "reverse": false},
+        {"id": "P4", "text": "How often do you think: 'I can't take it anymore'?", "scale": "FREQ", "reverse": false},
+        {"id": "P5", "text": "How often do you feel worn out?", "scale": "FREQ", "reverse": false},
+        {"id": "P6", "text": "How often do you feel weak and susceptible to illness?", "scale": "FREQ", "reverse": false}
+      ]
+    },
+    "work": {
+      "name": "Work-related Burnout",
+      "definition": "Prolonged physical and psychological exhaustion perceived as related to the person's work.",
+      "min_responses_required": 4,
+      "items": [
+        {"id": "W1", "text": "Is your work emotionally exhausting?", "scale": "INTENSITY", "reverse": false},
+        {"id": "W2", "text": "Do you feel burnt out because of your work?", "scale": "INTENSITY", "reverse": false},
+        {"id": "W3", "text": "Does your work frustrate you?", "scale": "INTENSITY", "reverse": false},
+        {"id": "W4", "text": "Do you feel worn out at the end of the working day?", "scale": "FREQ", "reverse": false},
+        {"id": "W5", "text": "Are you exhausted in the morning at the thought of another day at work?", "scale": "FREQ", "reverse": false},
+        {"id": "W6", "text": "Do you feel that every working hour is tiring for you?", "scale": "FREQ", "reverse": false},
+        {"id": "W7", "text": "Do you have enough energy for family and friends during leisure time?", "scale": "FREQ", "reverse": true}
+      ]
+    },
+    "client": {
+      "name": "Client-related Burnout",
+      "definition": "Prolonged physical and psychological exhaustion perceived as related to work with clients.",
+      "min_responses_required": 3,
+      "optional": true,
+      "items": [
+        {"id": "C1", "text": "Do you find it hard to work with clients?", "scale": "INTENSITY", "reverse": false},
+        {"id": "C2", "text": "Do you find it frustrating to work with clients?", "scale": "INTENSITY", "reverse": false},
+        {"id": "C3", "text": "Does it drain your energy to work with clients?", "scale": "INTENSITY", "reverse": false},
+        {"id": "C4", "text": "Do you feel that you give more than you get back when you work with clients?", "scale": "INTENSITY", "reverse": false},
+        {"id": "C5", "text": "Are you tired of working with clients?", "scale": "FREQ", "reverse": false},
+        {"id": "C6", "text": "Do you sometimes wonder how long you will be able to continue working with clients?", "scale": "FREQ", "reverse": false}
+      ]
+    }
+  },
+  "supplementary_items": [
+    {
+      "id": "S1",
+      "dimension": "workload_pressure",
+      "text": "How heavy has your workload felt over the past two weeks? (supplementary, not validated)",
+      "scale": "INTENSITY",
+      "reverse": false
+    },
+    {
+      "id": "S2",
+      "dimension": "recovery_sleep",
+      "text": "How well do you feel you are recovering and sleeping outside of work? (supplementary, not validated)",
+      "scale": "FREQ",
+      "reverse": true
+    },
+    {
+      "id": "S3",
+      "dimension": "support",
+      "text": "Do you receive adequate support from your manager and peers when needed? (supplementary, not validated)",
+      "scale": "FREQ",
+      "reverse": true
+    },
+    {
+      "id": "S4",
+      "dimension": "autonomy",
+      "text": "Do you feel you have control over how you organize your daily work tasks? (supplementary, not validated)",
+      "scale": "FREQ",
+      "reverse": true
+    },
+    {
+      "id": "S5",
+      "dimension": "job_satisfaction",
+      "text": "Overall, how satisfied are you with your work situation? (supplementary, not validated)",
+      "scale": "FREQ",
+      "reverse": true
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+rules:
+  workload:
+    employee:
+      title: "Workload Management & Priority Alignment"
+      description: "Focus on task prioritization, setting clear daily boundaries, and discussing capacity with your supervisor."
+      actions:
+        - "Conduct a daily 80/20 task audit to defer non-essential tasks."
+        - "Request a 15-minute priority realignment check-in with your team lead."
+        - "Use time-blocking techniques to block dedicated focus periods without meeting interruptions."
+    hr:
+      title: "Manager Workload Redistribution & Scope Review"
+      description: "Review current team deliverables, reassign pending tasks, and adjust upcoming sprint deadlines."
+      actions:
+        - "Reassign secondary project deliverables to team members with available capacity."
+        - "Review and extend non-critical project deadlines by 1-2 weeks."
+        - "Implement meeting-free focus afternoons across the department."
+
+  recovery:
+    employee:
+      title: "Recovery & Rest Restoration Plan"
+      description: "Prioritize sleep hygiene, take regular short micro-breaks, and plan dedicated annual leave."
+      actions:
+        - "Schedule at least 1-2 days of paid time off within the next 3 weeks."
+        - "Implement strict digital disconnection after 7:00 PM."
+        - "Take 5-minute movement or breathing breaks every 90 minutes during work."
+    hr:
+      title: "Protected Leave Scheduling & Coverage Support"
+      description: "Encourage leave take-up and establish clear cross-coverage during time off."
+      actions:
+        - "Actively approve pending leave requests and assign clear backup coverage."
+        - "Enforce strict 'no after-hours email' guidelines for the department."
+        - "Provide access to company wellness and sleep coaching resources."
+
+  support:
+    employee:
+      title: "Peer Connection & Support Engagement"
+      description: "Reach out to trusted colleagues, mentors, or peer support groups for guidance and shared experiences."
+      actions:
+        - "Schedule a casual catch-up or coffee chat with a peer mentor."
+        - "Share current workload bottlenecks openly during 1-on-1 meetings."
+        - "Access confidential Employee Assistance Program (EAP) counseling services."
+    hr:
+      title: "Manager Support Check-In & Mentorship Pairing"
+      description: "Facilitate supportive 1-on-1 dialogues and provide active managerial empathy."
+      actions:
+        - "Schedule a supportive, non-evaluative 1-on-1 check-in focusing on well-being."
+        - "Pair employee with an experienced peer mentor for task guidance."
+        - "Reiterate confidential access to external professional support resources."
+
+  long_hours:
+    employee:
+      title: "Overtime Reduction & Boundary Setting"
+      description: "Establish firm log-off times and cap overtime hours to prevent chronic exhaustion."
+      actions:
+        - "Set an automatic calendar reminder to log off by standard closing time."
+        - "Decline optional or non-essential late-afternoon meetings."
+        - "Notify management when weekly hours consistently exceed 45 hours."
+    hr:
+      title: "Overtime Cap Policy & Capacity Rebalancing"
+      description: "Enforce departmental overtime limits and rebalance operational schedules."
+      actions:
+        - "Institute a temporary cap of maximum 5 overtime hours per week."
+        - "Audit department shift schedules to ensure minimum 11 hours rest between shifts."
+        - "Review staffing requirements and consider temporary contractor support."
